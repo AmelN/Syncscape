@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    19ff7cc8-5dd3-414a-bb1e-a273f505498e: f4175c6b-f7fc-7511-d575-aa5fdfa381de/809f4eaaa6d8057264c79282fd265d07/Data/lcd-screen-rgb-colo.png
+  Assets:
+    - !<FileTexture/19ff7cc8-5dd3-414a-bb1e-a273f505498e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 809f4eaaa6d8057264c79282fd265d07
+  FileHash: 3316195ca3cf54bd277159f765338cbf
+  NativePackageItems:
+    []

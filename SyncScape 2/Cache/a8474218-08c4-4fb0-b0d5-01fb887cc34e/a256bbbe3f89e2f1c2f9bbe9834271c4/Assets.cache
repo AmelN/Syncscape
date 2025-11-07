@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    846f9e50-967b-4377-be7b-3a2789f83eae: a8474218-08c4-4fb0-b0d5-01fb887cc34e/a256bbbe3f89e2f1c2f9bbe9834271c4/Data/Bubble1.wav
+  Assets:
+    - !<FileAudioTrack/846f9e50-967b-4377-be7b-3a2789f83eae>
+      PackagePath: ""
+  SourceHash: a256bbbe3f89e2f1c2f9bbe9834271c4
+  FileHash: 0c21771b1097b84fc4f0f22a6a611af7
+  NativePackageItems:
+    []

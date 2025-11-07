@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c8ae57b6-2de5-464a-ac21-eb7922cdc3b9: fe9da8cf-c564-83a4-b93f-d0355740b72a/035c437f05d63b4aca0d1326be7d4b59/Data/fx_water_splash_2x2.png
+  Assets:
+    - !<FileTexture/c8ae57b6-2de5-464a-ac21-eb7922cdc3b9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 035c437f05d63b4aca0d1326be7d4b59
+  FileHash: 44b488093b715755c9a0e922f1e9f88b
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    516f6243-ea9b-495b-9e10-353d95830b4a: ce036d20-71e5-631a-5c68-cdd3709daccf/4896de58eeaf865e85bff425fc3925d7/Data/Plane.mesh
+  Assets:
+    - !<FileMesh/516f6243-ea9b-495b-9e10-353d95830b4a>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2
+        Vertices: 4
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.000000, y: 0.000000, z: 1.000000}
+  SourceHash: 4896de58eeaf865e85bff425fc3925d7
+  FileHash: 3418ba27afc0ea6e722a136eb29cd2c4
+  NativePackageItems:
+    []

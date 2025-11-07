@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    511ed519-153e-4cb7-bc2d-4354a6f4d16f: e884bfcd-ec01-4b1f-b3fb-7856257d6bde/03980aecf3f21333dcdf6ccc480c1c6c/Data/Glass.png
+  Assets:
+    - !<FileTexture/511ed519-153e-4cb7-bc2d-4354a6f4d16f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 03980aecf3f21333dcdf6ccc480c1c6c
+  FileHash: 65d3e2a2c0c6ad091fdcc4634d445c10
+  NativePackageItems:
+    []

@@ -1,0 +1,353 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: cab14ad3951b5394c0e805bcc05667a5
+  FileHash: 94a90849d6efd129613787276915af07
+  NativePackageItems:
+    - !<own> fe9da8cf-c564-83a4-b93f-d0355740b72a
+    - !<own> a490e59c-2ce7-28ff-4f85-24d9f89f6745
+    - !<own> aa9c5e12-c200-d815-b58e-51b8a6a93a0c
+    - !<own> aa4c0199-93f1-5c15-50b6-609728b352c6
+    - !<own> 0382eacf-e540-3d70-f3a3-9cf5957d6e9b
+    - !<own> b53effc1-649a-c3a2-36d3-de9b6ced4c6f
+    - !<own> 2637b2b1-cead-31eb-cbd4-15791716e0fb
+    - !<own> 28c7d159-9caf-072b-d901-bdb4509de248
+- !<VFXAssetData/01a48891-e934-4c76-873d-dbdf1610ac69>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/0a51a855-f62d-4ae5-9fad-6171e92d8962>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        {}
+      RenderProperties:
+        {}
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []
+- !<AssetImportMetadata/0382eacf-e540-3d70-f3a3-9cf5957d6e9b>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 33f37c4e-83b2-4474-9e08-49d900a98560
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 33f37c4e-83b2-4474-9e08-49d900a98560
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> 01a48891-e934-4c76-873d-dbdf1610ac69
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/2637b2b1-cead-31eb-cbd4-15791716e0fb>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 82caecb3-9692-42d0-a509-f470ed9f8827
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 82caecb3-9692-42d0-a509-f470ed9f8827
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> a57807d6-414a-4e75-ac4b-ef3b7d0489f6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/28c7d159-9caf-072b-d901-bdb4509de248>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> ffb13799-f199-4084-9a95-e92b0e6309b7
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> ffb13799-f199-4084-9a95-e92b0e6309b7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/42516d69-1cd9-4b5c-6abe-2be9aa6cf8e3>
+  PrefabRemaps:
+    []
+  Name: Fountain_Waterdrop
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a94114aa-409b-458b-7d4b-f527f36b87b9
+- !<VFXComponent/4589945a-ba76-4536-420b-ba82f543b7b5>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 2
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 9e6dad0d-8cc5-4a3d-930c-94245908ab7b
+- !<VFXAssetData/7cef20d1-f48b-43c5-afca-4c0af21e4772>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/9940daac-52b1-4fb9-b8ef-3bd17ea810dc>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        {}
+      RenderProperties:
+        Tweak_N4:
+          typeIdx: 9
+          value:
+            id: c8ae57b6-2de5-464a-ac21-eb7922cdc3b9
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: ClampToEdge
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []
+- !<VFXComponent/871d94c2-a3c2-468a-7ffc-ba9c8231ea35>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> da2f01ba-e9f9-4f72-9007-7b4bb19343a7
+- !<AssetImportMetadata/a490e59c-2ce7-28ff-4f85-24d9f89f6745>
+  ImportedAssetIds:
+    Texture: !<reference> 47d21ffd-677f-4526-96e7-e01f64a18996
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 47d21ffd-677f-4526-96e7-e01f64a18996
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: Medium
+- !<ObjectPrefabAssetData/a57807d6-414a-4e75-ac4b-ef3b7d0489f6>
+  Prototype: !<ObjectOwner/216314b6-797b-4c60-95ed-34492c254d2c>
+    PackagePath: ""
+    objects:
+      - !<own> d836456c-e96a-447f-44d0-40d66bcfb1d6
+- !<VFXComponent/a94114aa-409b-458b-7d4b-f527f36b87b9>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 33f37c4e-83b2-4474-9e08-49d900a98560
+- !<AssetImportMetadata/aa4c0199-93f1-5c15-50b6-609728b352c6>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 9e6dad0d-8cc5-4a3d-930c-94245908ab7b
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 9e6dad0d-8cc5-4a3d-930c-94245908ab7b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> 7cef20d1-f48b-43c5-afca-4c0af21e4772
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/aa9c5e12-c200-d815-b58e-51b8a6a93a0c>
+  ImportedAssetIds:
+    Texture: !<reference> 61b94542-8ead-4008-a340-c0bce8243a1f
+  ImporterName: ScreenTextureImporter
+  PrimaryAsset: !<reference> 61b94542-8ead-4008-a340-c0bce8243a1f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/b53effc1-649a-c3a2-36d3-de9b6ced4c6f>
+  ImportedAssetIds:
+    VFXGraph: !<reference> da2f01ba-e9f9-4f72-9007-7b4bb19343a7
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> da2f01ba-e9f9-4f72-9007-7b4bb19343a7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> cf68e410-38e2-41dc-a286-cc162e7a260d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/c3ebade0-354b-4163-6340-6767fb258866>
+  PrefabRemaps:
+    []
+  Name: Fountain_Splash
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4589945a-ba76-4536-420b-ba82f543b7b5
+- !<VFXAssetData/cf68e410-38e2-41dc-a286-cc162e7a260d>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/efa581ac-d9b4-4d63-8ce8-37925ca121c8>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        {}
+      RenderProperties:
+        Tweak_N33:
+          typeIdx: 9
+          value:
+            id: 61b94542-8ead-4008-a340-c0bce8243a1f
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: ClampToEdge
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+        Tweak_N23:
+          typeIdx: 9
+          value:
+            id: 47d21ffd-677f-4526-96e7-e01f64a18996
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: ClampToEdge
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+        Tweak_N29:
+          typeIdx: 1
+          value: 0.100000
+        Tweak_N4:
+          typeIdx: 9
+          value:
+            id: c8ae57b6-2de5-464a-ac21-eb7922cdc3b9
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: ClampToEdge
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []
+- !<SceneObject/d836456c-e96a-447f-44d0-40d66bcfb1d6>
+  PrefabRemaps:
+    []
+  Name: FountainVFX__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -35.057194}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> fa069524-7037-4c54-6409-b0ba9a788ff1
+    - !<own> 42516d69-1cd9-4b5c-6abe-2be9aa6cf8e3
+    - !<own> c3ebade0-354b-4163-6340-6767fb258866
+  Components:
+    []
+- !<SceneObject/fa069524-7037-4c54-6409-b0ba9a788ff1>
+  PrefabRemaps:
+    []
+  Name: Fountain_Distortion
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 871d94c2-a3c2-468a-7ffc-ba9c8231ea35
+- !<AssetImportMetadata/fe9da8cf-c564-83a4-b93f-d0355740b72a>
+  ImportedAssetIds:
+    Texture: !<reference> c8ae57b6-2de5-464a-ac21-eb7922cdc3b9
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> c8ae57b6-2de5-464a-ac21-eb7922cdc3b9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: Medium

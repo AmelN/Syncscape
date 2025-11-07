@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    8afeb502-d14f-4113-b014-33284bb43bed: e95002e5-7070-f222-fa02-2305c9e5e34e/bf2421f289f84e113e18900d6c902f0e/Data/texture-abstract.png
+  Assets:
+    - !<FileTexture/8afeb502-d14f-4113-b014-33284bb43bed>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: bf2421f289f84e113e18900d6c902f0e
+  FileHash: 6ad72f1b9e8be7751a8bb44422bdaa81
+  NativePackageItems:
+    []

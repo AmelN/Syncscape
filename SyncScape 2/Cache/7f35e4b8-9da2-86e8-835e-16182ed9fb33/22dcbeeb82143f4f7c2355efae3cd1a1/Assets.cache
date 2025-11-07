@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    85c69218-585f-44d7-b4ab-a596e513646f: 7f35e4b8-9da2-86e8-835e-16182ed9fb33/22dcbeeb82143f4f7c2355efae3cd1a1/Data/ChromeMetal_2D_View.jpg
+  Assets:
+    - !<FileTexture/85c69218-585f-44d7-b4ab-a596e513646f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 22dcbeeb82143f4f7c2355efae3cd1a1
+  FileHash: d6d2f1983add6b2bcbb00d7a1cfe964c
+  NativePackageItems:
+    []

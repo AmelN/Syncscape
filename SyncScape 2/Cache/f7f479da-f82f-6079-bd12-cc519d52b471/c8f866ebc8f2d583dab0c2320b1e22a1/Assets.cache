@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    80c8ed39-7c06-497e-a67f-adb9a1a806f9: f7f479da-f82f-6079-bd12-cc519d52b471/c8f866ebc8f2d583dab0c2320b1e22a1/Data/fx_water_splash_2x2_cartoony.png
+  Assets:
+    - !<FileTexture/80c8ed39-7c06-497e-a67f-adb9a1a806f9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: c8f866ebc8f2d583dab0c2320b1e22a1
+  FileHash: 8bc25ef31f63de3bb1272914b2fa9ef2
+  NativePackageItems:
+    []

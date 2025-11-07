@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    8b7c6d6f-f6c0-4129-a2e3-333f95e38e84: 14b2d762-7689-b357-41ab-e1381a4d916b/98b1411d0e753d6e37abeb74628454c5/Data/ring-light2.png
+  Assets:
+    - !<FileTexture/8b7c6d6f-f6c0-4129-a2e3-333f95e38e84>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 98b1411d0e753d6e37abeb74628454c5
+  FileHash: 5cafb79d7fd6d9e832c70b533e0128e7
+  NativePackageItems:
+    []

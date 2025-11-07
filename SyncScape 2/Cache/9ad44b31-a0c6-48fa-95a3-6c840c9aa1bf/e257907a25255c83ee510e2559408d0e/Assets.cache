@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    469ffbc9-fb40-4969-a689-34e5027fd710: 9ad44b31-a0c6-48fa-95a3-6c840c9aa1bf/e257907a25255c83ee510e2559408d0e/Data/BubbleNoise.png
+  Assets:
+    - !<FileTexture/469ffbc9-fb40-4969-a689-34e5027fd710>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: e257907a25255c83ee510e2559408d0e
+  FileHash: 97d4aae643148d6042b7a9675e0e0d49
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    bc07d9c8-6905-4ab9-8e2b-56429deec2ad: a29a894d-f267-474d-af79-ae2bfb28b476/dd6fed58082bd750b0bd6a32e6e5f6a1/Data/HoverNoise.png
+  Assets:
+    - !<FileTexture/bc07d9c8-6905-4ab9-8e2b-56429deec2ad>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: dd6fed58082bd750b0bd6a32e6e5f6a1
+  FileHash: 289c9bb44ee6b001e730e8c65a902267
+  NativePackageItems:
+    []

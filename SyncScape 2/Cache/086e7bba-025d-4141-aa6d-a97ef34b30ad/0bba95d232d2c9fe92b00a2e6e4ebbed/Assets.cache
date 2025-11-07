@@ -1,0 +1,127 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 0bba95d232d2c9fe92b00a2e6e4ebbed
+  FileHash: 2b93bfced37ce372ce34621830ebd19f
+  NativePackageItems:
+    - !<own> 6d194b09-7077-fd71-4f9d-5109e17a1e68
+    - !<own> 48bdf424-4a90-c2e2-d550-fd6b7f290c0e
+    - !<own> d0105c01-92e0-43b6-3402-3aab56f033cd
+    - !<own> 872dc535-c2ec-b00e-c1f4-a743f50b90c8
+- !<VFXAssetData/3b0c3d54-2210-463d-85d5-52f175e3c32d>
+  Mesh: !<reference> 8a34ba14-cfc3-4519-bbd9-45ce2299f0bc
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/a338b800-3b7e-405d-8628-1aa957690139>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        {}
+      RenderProperties:
+        Tweak_N24:
+          typeIdx: 5
+          value: {x: 0.999634, y: 0.000000, z: 0.075456, w: 1.000000}
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []
+- !<AssetImportMetadata/48bdf424-4a90-c2e2-d550-fd6b7f290c0e>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> fc28762f-55ea-4228-8197-d38ece5d37f0
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> fc28762f-55ea-4228-8197-d38ece5d37f0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/6d194b09-7077-fd71-4f9d-5109e17a1e68>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 7960d073-5770-4cc8-a84e-9cb8312ed2e5
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 7960d073-5770-4cc8-a84e-9cb8312ed2e5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> 3b0c3d54-2210-463d-85d5-52f175e3c32d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/7bb4f956-2ee5-49fc-823b-501e100d02d2>
+  Prototype: !<ObjectOwner/207b27b4-5112-4044-8ed3-5a7b39df2a10>
+    PackagePath: ""
+    objects:
+      - !<own> dad3f018-addc-478b-606c-99e9c0fb92c5
+- !<AssetImportMetadata/872dc535-c2ec-b00e-c1f4-a743f50b90c8>
+  ImportedAssetIds:
+    {}
+  ImporterName: NativePackageImporter
+  PrimaryAsset: !<reference> 37b7250a-5007-4a5a-a052-0e04c3733eae
+  PackageType: PackedNativePackageRoot
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXComponent/c8ce3b0e-91fd-40f4-7ddc-8dc375a99181>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 7960d073-5770-4cc8-a84e-9cb8312ed2e5
+- !<AssetImportMetadata/d0105c01-92e0-43b6-3402-3aab56f033cd>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 30e4e291-f51e-43a8-b3cc-7a12b6b51592
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 30e4e291-f51e-43a8-b3cc-7a12b6b51592
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 7bb4f956-2ee5-49fc-823b-501e100d02d2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/dad3f018-addc-478b-606c-99e9c0fb92c5>
+  PrefabRemaps:
+    []
+  Name: CubeVFX
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 1.600000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.100000, y: 0.100000, z: 0.100000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c8ce3b0e-91fd-40f4-7ddc-8dc375a99181

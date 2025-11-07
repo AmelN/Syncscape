@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/2e066760-88cd-4f81-aa71-e484b9b0bdbb>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 51f6f7f7-4c59-4872-ba34-29e7a4e71a21
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 51f6f7f7-4c59-4872-ba34-29e7a4e71a21
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> fe4828e2-742b-4e25-aa74-71f10e6e9621
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/fe4828e2-742b-4e25-aa74-71f10e6e9621>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3ad58a91-e23c-4e7e-89f5-aecfee317f47
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cylinderMat: false
+    holoMat: false
+    isVJText: false
+    myRmv: false
+    myRmvB: false
+    myRmvC: false
+    outObject: false
+    vfx: false
+    vjOnlyInteractibles: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - isVJText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      vjOnlyInteractibles: !<reference.ScriptComponent[]>
+        []
+      holoMat: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      cylinderMat: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      vfx: !<reference.VFXAsset> 00000000-0000-0000-0000-000000000000
+      myRmv: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      myRmvB: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      myRmvC: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      outObject: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

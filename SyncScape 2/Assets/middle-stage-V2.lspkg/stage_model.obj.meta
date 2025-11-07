@@ -1,0 +1,96 @@
+- !<AssetImportMetadata/32059bb6-dab4-f0dc-61a8-3ce4374bf3e1>
+  ImportedAssetIds:
+    .hidden/diffuse_0_0_0_255: !<reference> 26027a50-fc66-46d1-b660-2245b4f0f478
+    .hidden/white: !<reference> 1d88dbff-4576-4c68-8e02-92c97c774f42
+    4677ddc4b07c624e: !<reference> d86ae33d-fe6d-41a6-ab9a-7bf930a298c5
+    66780cf3a4dcb2b8: !<reference> c6bad674-cec6-4fd1-b9ca-3eea4e14e153
+    6eef908b300c242e: !<reference> 4eccdbf8-afb3-4aae-8f63-0a8b0cb81600
+    Materials/diffuse_0_0_0_255: !<reference> 35635132-6d0e-4100-96dd-96c81674a78a
+    Materials/diffuse_0_0_0_255|diffuse_0_0_0_255|GraphPassInfo: !<reference> f39602f1-214f-4d6f-93be-a1773daa0697
+    Meshes/Mesh 1: !<reference> 8c5b9b54-c9a7-4acb-beb2-6d45ca5fa128
+    Scene: !<reference> 629e0179-d9fd-4c8f-aef1-4083d3184568
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> 629e0179-d9fd-4c8f-aef1-4083d3184568
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> cd3a63d7-2d81-4265-ae21-7e309a5c617a
+  DependentFiles:
+    - stage_model.mtl
+  ImporterSettings: !<D3FileImporterSettingsBase>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      jpg: Performance Compression
+      mesh: None Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/4eccdbf8-afb3-4aae-709c-f574f347e9ff>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 35635132-6d0e-4100-96dd-96c81674a78a
+  Mesh: !<reference> 8c5b9b54-c9a7-4acb-beb2-6d45ca5fa128
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c6bad674-cec6-4fd1-4635-c115b1eb1eac>
+  PrefabRemaps:
+    []
+  Name: stage_model
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d86ae33d-fe6d-41a6-5465-8406cf5d673a
+  Components:
+    []
+- !<ObjectPrefabAssetData/cd3a63d7-2d81-4265-ae21-7e309a5c617a>
+  Prototype: !<ObjectOwner/93e2fe3a-26a6-4b93-b2e7-265002cb2997>
+    PackagePath: ""
+    objects:
+      - !<own> c6bad674-cec6-4fd1-4635-c115b1eb1eac
+- !<SceneObject/d86ae33d-fe6d-41a6-5465-8406cf5d673a>
+  PrefabRemaps:
+    []
+  Name: ""
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4eccdbf8-afb3-4aae-709c-f574f347e9ff

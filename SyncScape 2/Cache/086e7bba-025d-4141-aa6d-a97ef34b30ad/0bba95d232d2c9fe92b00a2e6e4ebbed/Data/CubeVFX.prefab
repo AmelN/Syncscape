@@ -1,0 +1,35 @@
+- !<ObjectPrefab/30e4e291-f51e-43a8-b3cc-7a12b6b51592>
+  PackagePath: ""
+  objects:
+    - !<own> dad3f018-addc-478b-9f93-66163f046d3a
+  LazyLoading: false
+  RetainAssets: true
+- !<VFXComponent/c8ce3b0e-91fd-40f4-8223-723c8a566e7e>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 7960d073-5770-4cc8-a84e-9cb8312ed2e5
+- !<SceneObject/dad3f018-addc-478b-9f93-66163f046d3a>
+  PrefabRemaps:
+    - c8ce3b0e-91fd-40f4-8223-723c8a566e7e: c8ce3b0e-91fd-40f4-7ddc-8dc375a99181
+    - dad3f018-addc-478b-9f93-66163f046d3a: dad3f018-addc-478b-606c-99e9c0fb92c5
+  Name: CubeVFX
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 1.600000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.100000, y: 0.100000, z: 0.100000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c8ce3b0e-91fd-40f4-8223-723c8a566e7e

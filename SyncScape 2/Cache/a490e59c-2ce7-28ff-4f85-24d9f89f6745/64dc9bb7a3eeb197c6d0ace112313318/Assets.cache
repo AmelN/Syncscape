@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    47d21ffd-677f-4526-96e7-e01f64a18996: a490e59c-2ce7-28ff-4f85-24d9f89f6745/64dc9bb7a3eeb197c6d0ace112313318/Data/fx_water_splash_2x2_distortion.png
+  Assets:
+    - !<FileTexture/47d21ffd-677f-4526-96e7-e01f64a18996>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 64dc9bb7a3eeb197c6d0ace112313318
+  FileHash: 61d4e87f5af0f6447b642c985c497b34
+  NativePackageItems:
+    []

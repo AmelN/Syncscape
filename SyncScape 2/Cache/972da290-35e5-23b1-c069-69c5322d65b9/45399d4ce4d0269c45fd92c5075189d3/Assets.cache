@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    43426b00-52f3-4a2d-881e-814460268c4b: 972da290-35e5-23b1-c069-69c5322d65b9/45399d4ce4d0269c45fd92c5075189d3/Data/Mesh 1.mesh
+  Assets:
+    - !<FileMesh/43426b00-52f3-4a2d-881e-814460268c4b>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 912
+        Vertices: 610
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.325516, y: 0.248657, z: 0.325473}
+  SourceHash: 45399d4ce4d0269c45fd92c5075189d3
+  FileHash: 450a78598a15e00b574330b1a7ed070b
+  NativePackageItems:
+    []

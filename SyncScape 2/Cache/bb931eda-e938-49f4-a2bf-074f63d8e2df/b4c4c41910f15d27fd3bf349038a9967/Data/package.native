@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/e5e8e5eb-faf5-43ee-bd26-2e26556ae807>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 0
+    build: 25101318
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Cartoon Fountain VFX This package contains the high quality Cartoon Fountain VFX asset. You can customize this particle system using VFX Editor. Click here to learn more about VFX Editor
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 741dec6a-226f-44eb-a93b-962bd7d7929d
+  ComponentUid: 4570f3a9-efff-43d7-b9f9-8111d9d9a22c
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags: []
+  Attachments: []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
+  coreVersion: 330
+  clientVersion: 13.6000004

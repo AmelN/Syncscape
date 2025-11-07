@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/67a33c76-8b0c-6d98-1093-8c098fd05d49>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d5154a6b-8843-4920-acf9-e372b7fe5e07
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d5154a6b-8843-4920-acf9-e372b7fe5e07
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5c33f9a4-e1f9-4a36-847f-9780a179c771
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5c33f9a4-e1f9-4a36-847f-9780a179c771>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d82ff743-b504-40b9-bbca-8efab4b73638
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    rotationpeed: false
+    screenCropTexture: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - screenCropTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      rotationpeed: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}

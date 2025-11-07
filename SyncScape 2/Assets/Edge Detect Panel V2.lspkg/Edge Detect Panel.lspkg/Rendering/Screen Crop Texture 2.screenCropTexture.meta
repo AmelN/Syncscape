@@ -1,0 +1,16 @@
+- !<AssetImportMetadata/53218c41-194a-e266-266b-a020cec16ed6>
+  ImportedAssetIds:
+    Texture: !<reference> f98c7e2b-ce66-42a3-a711-2b4076d4cf1f
+  ImporterName: ScreenCropTextureImporter
+  PrimaryAsset: !<reference> f98c7e2b-ce66-42a3-a711-2b4076d4cf1f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
